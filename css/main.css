@@ -3,6 +3,7 @@ body {
   width: 100%;
   margin: 0, auto;
 }
+/* index1 page 1 styling navbar real estate  responsive image */
 nav ul li,
 a {
   list-style: none;
@@ -20,4 +21,16 @@ nav ul li img {
   display: grid;
   grid-template-rows: 800px 800px 800px;
   grid-template-columns: 800px 800px;
+}
+
+/* page3 icons and paragraph ajustment */
+.het {
+  margin-left: 50%;
+}
+.peo {
+  float: left;
+}
+
+.pres {
+  float: left;
 }
