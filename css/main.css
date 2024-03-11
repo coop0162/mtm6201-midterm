@@ -12,11 +12,20 @@ a {
   position: relative;
   box-sizing: content-box;
 }
+/* navbar colour changes  */
+a:hover,
+a:active,
+a:visited {
+  color: aquamarine;
+}
+
 nav ul li img {
   padding-bottom: 3%;
   padding-right: 2%;
   box-sizing: content-box;
 }
+
+/* container=conroms of the of the rooms  */
 .conroms {
   display: grid;
   grid-template-rows: 800px 800px 800px;
