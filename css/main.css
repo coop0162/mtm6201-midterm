@@ -18,7 +18,7 @@ a:active,
 a:visited {
   color: aquamarine;
 }
-
+/* icon top  */
 nav ul li img {
   padding-bottom: 3%;
   padding-right: 2%;
@@ -31,7 +31,27 @@ nav ul li img {
   grid-template-rows: 800px 800px 800px;
   grid-template-columns: 800px 800px;
 }
-
+/* animation for the first image on index1.html */
+.orangrom:hover {
+  animation-name: oraN;
+  animation-duration: 6s;
+}
+@keyframes oraN {
+  from {
+    transform: scale(2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* transform on the second image index1.html */
+.blu:active {
+  transform: rotateX(45deg);
+}
+/* transform on the third image index1.html */
+.wit:hover {
+  transform: translate(25%);
+}
 /* page3 icons and paragraph ajustment */
 .het {
   margin-left: 50%;
