@@ -24,13 +24,16 @@ nav ul li img {
   padding-right: 2%;
   box-sizing: content-box;
 }
+.orangrom {
+  width: 100%;
+}
 
 /* container=conroms of the of the rooms  */
-.conroms {
+/* .conroms {
   display: grid;
   grid-template-rows: 800px 800px 800px;
   grid-template-columns: 800px 800px;
-}
+} */
 /* animation for the first image on index1.html */
 .orangrom:hover {
   animation-name: oraN;
@@ -62,4 +65,8 @@ nav ul li img {
 
 .pres {
   float: left;
+}
+
+/******Desktop*********/
+@media and (max-width: px) {
 }
