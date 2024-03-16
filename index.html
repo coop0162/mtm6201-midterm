@@ -3,25 +3,33 @@
 <!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx -->
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Real estate</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
   <div class="container">
     <header>
-      <!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx -->
-      <!-- nav bar how bottom? -->
-      <img class="pathg" src="images/icons/Path@2x.png" alt="icon gear">
-      <h3>Woodbridge</h3>
-      <img src="images/icons/pin-outline-1@2x.png" class="picon" alt="pin icon">
+      <div class="upbar">
+        <!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx -->
+        <!-- nav bar how bottom? -->
+        <div>
+          <img src="images/icons/pin-outline-1@2x.png" class="picon" alt="pin icon" />
+          <a href="#" class="location">Location</a>
+          <h1 class="plac">Woodbridge</h1>
+          <img class="pathg" src="images/icons/Path@2x.png" alt="icon gear" />
+        </div>
 
-
-      <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar3   understand search bars an input type function--><!-- search bar  -->
-      <!-- search icon -->
-      <!--  --> <input type="text">&#128269;
+        <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_searchbar3   understand search bars an input type function--><!-- search bar  -->
+        <!-- search icon -->
+        <!--  -->
+        <form action="">
+          <input type="search" placeholder="Search by location, area or pincode" />
+          <button>&#128269;</button>
+        </form>
+      </div>
       <!--magnifying glass symbol
         -https://www.w3schools.com/charsets/ref_emoji_symbols.asp   Left magnifying glass symbol
           https://www.w3schools.com/charsets/tryit.asp?deci=128269 
@@ -29,125 +37,82 @@
   -->
 
       <nav>
-        <ul><!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx -->
-          <li><img src="images/icons/search.png" alt="search icon"><a href="#">Explore</a></li>
-          <li><img src="images/icons/heart-outline@2x.png" alt="heart icon"><a href="page2.html">Saved</a></li>
-          <li><img src="images/icons/bell-outline@2x.png" alt="bell icon"><a href="page3.html">Alert</a></li>
-          <li><img src="images/icons/people-outline@2x.png" alt=""><a href="#">Profile</a></li>
+        <ul>
+          <!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx -->
+          <li>
+            <img src="images/icons/search.png" alt="search icon" /><a href="#">Explore</a>
+          </li>
+          <li>
+            <img src="images/icons/heart-outline@2x.png" alt="heart icon" /><a href="page2.html">Saved</a>
+          </li>
+          <li>
+            <img src="images/icons/bell-outline@2x.png" alt="bell icon" /><a href="page3.html">Alert</a>
+          </li>
+          <li>
+            <img src="images/icons/people-outline@2x.png" alt="" /><a href="#">Profile</a>
+          </li>
         </ul>
-
       </nav>
-
     </header>
     <!-- https://github.com/imdac/mtm6201-midterm-real-estate.gitx     images from real estate github-->
     <main>
-      <div class="conroms">
-
-
+      <section class="conroms">
+        <h2>Just In</h2>
+        <a href="#" class="view">View All</a>
         <div class="rom1">
-
-
-          <h1>Just In</h1>
-          <h5>View All</h5>
           <picture>
-            <source srcset="images/rooms/1008x567largeorangeroom.png " media="(min-width:300px)" />
-
-            <img class="orangrom" src="images/rooms/336x189smallorangeroom.png" alt="orange office with guitar">
+            <source srcset="images/rooms/1008x567largeorangeroom.png" media="(min-width:700px)" />
+            <source srcset="images/rooms/672x378medorangeroom.png" media="(min-width:400px)" />
+            <img class="orangrom" src="images/rooms/336x189smallorangeroom.png" alt="orange office with guitar" />
           </picture>
-
-
-
           <p>$1291-5299</p>
           <p>1-4 beds 1-2 bath</p>
-          <img src="images/icons/pin-outline-1@2x.png" alt="pin icon">
+          <img src="images/icons/pin-outline-1@2x.png" class="picon" alt="pin icon" />
           <p>252 1st Avenue</p>
+        </div>
+        <!-- closes .room1 -->
+        <div class="room2">
           <picture>
-            <source srcset="" media="()" />
-
-            <img class="blu" src="images/rooms/335x224smallblue.png" alt="blue livingroom">
+            <source srcset="images/rooms/1005x672largeblueroom.png" media="(min-width:700px)" />
+            <source srcset="images/rooms/670x448medblueroom.png" media="(min-width:400px)" />
+            <img class="blu" src="images/rooms/335x224smallblue.png" alt="blue livingroom" />
           </picture>
-
 
           <p>$4,999</p>
           <p>5 beds, 2bathroom</p>
-          <img src="images/icons/pin-outline-1@2x.png" alt="pin icon">
+          <img src="images/icons/pin-outline-1@2x.png" class="picon" alt="pin icon" />
           <p>209 & 10th st#8</p>
-        </div><!--closing div first room  display prices and images-->
-
-
-
-
-
-        <div class="rom2">
-          <picture>
-
-
-            <h5>Designer Homes</h5>
-            <picture>
-              <source srcset="" media="()" />
-
-              <img class="wit" src="images/rooms/335x223smallwhiteroom.png" alt="white living room">
-            </picture>
-
-
-
-            <p>$3663</p>
-            <p>1 bedroom 2 bathroom</p>
-            <img src="images/icons/pin-outline-1@2x.png" alt="pin icon">
-
-            <p>34 & 34 st. </p>
-            <picture>
-              <source srcset="" media="()" />
-
-              <img class="gut" src="images/rooms/336x189smallorangeroom.png" alt=" orange office with guitar">
-            </picture>
-
-
-
-
-
-            <p>$1634</p>
-            <p>2 bed 1bathroom</p>
-            <img src="images/icons/pin-outline-1@2x.png" alt="pin icon">
-            <p>354 & 35 </p>
-        </div> <!--closing div rooms 2 display prices and images-->
-
-        <div class="rom3">
-          <h4>Near you</h4>
-          <picture>
-            <source srcset="" media="()" />
-
-            <img class="" src="images/rooms/273x183smallofficeroom.png" alt="office room">
-          </picture>
-
-
-
-          <p>$4564</p>
-          <p>1bathroom 1bedroom</p>
-          <img src="images/icons/pin-outline-1@2x.png" alt="pin icon">
-          <p>546 & 35</p>
-          <picture>
-            <source srcset="" media="()" />
-
-            <img class="" src="images/rooms/335x223smallwhiteroom.png" alt="white living room">
-          </picture>
-          <p>$4562</p>
-          <p>1 bedroom 1 bathroom</p>
-          <img src="images/icons/pin-outline-1@2x.png" alt="">
-          <p>452 & 34th st.</p>
-
         </div>
-        <!-- closing div room 3 display prices and images  -->
+        <!--closing div second room  display prices and images-->
+      </section>
+      <!-- closes .conroms-->
+      <section class="design-homes">
+        <a href="#" class="view">View All</a>
+        <h3>Designer Homes</h3>
+        <div class="home-cont">
+          <picture>
+            <source srcset="images/rooms/1005x669largewhiteroom.png" media="(min-width:700px)" />
+            <source srcset="images/rooms/670x446medwhiteroom.png" media="(min-width:400px)" />
 
+            <img class="wit" src="images/rooms/335x223smallwhiteroom.png" alt="white living room" />
+          </picture>
 
+          <p class="pric">Starts at $1,999/sq ft</p>
+        </div>
+        <div class="home-cont">
+          <picture>
+            <source srcset="images/rooms/1005x672largeblueroom.png" media="(min-width:700px)" />
+            <source srcset="images/rooms/670x448medblueroom.png" media="(min-width:400px)" />
 
-
-
-      </div>
-      <!-- div closing the whole container for the room images  -->
+            <img class="gut" src="images/rooms/336x189smallorangeroom.png" alt=" orange office with guitar" />
+          </picture>
+          <p class="pric">Starts at $1634/sq ft</p>
+        </div> <!--closes .home-cont -->
+      </section>
+      <!-- closes the #design-home section-->
     </main>
     <footer>
-      Copyright &copy; real estate, 2024
+      <p>Copyright &copy; real estate, 2024</p>
     </footer>
   </div>
 </body>

@@ -1,7 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
   margin: 0, auto;
+  padding-bottom: 100px;
+}
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: white;
 }
 /* index1 page 1 styling navbar real estate  responsive image */
 nav ul li,
@@ -24,20 +30,66 @@ nav ul li img {
   padding-right: 2%;
   box-sizing: content-box;
 }
-.orangrom {
+.orangrom,
+.blu,
+.wit .gut {
   width: 100%;
 }
 
-/* container=conroms of the of the rooms  */
-/* .conroms {
+/* container=conroms of  rooms  */
+.conroms {
   display: grid;
-  grid-template-rows: 800px 800px 800px;
-  grid-template-columns: 800px 800px;
-} */
+  grid-template-rows: 350x 350px;
+  grid-template-columns: 49% 45%;
+  gap: 15px;
+}
+/* location image pin in the price and details  */
+.picon {
+  display: inline;
+  margin-right: 50%;
+  position: relative;
+  top: 23px;
+}
+/* shift the location detail near pin  */
+.rom1 p {
+  margin-bottom: -2%;
+}
+.room2 p {
+  margin-bottom: -2%;
+}
+
+/* container=design-homes of designer rooms  */
+.design-homes {
+}
+/* view all select tap font */
+.view {
+  display: inline;
+  margin-left: 50%;
+  position: relative;
+  top: 23px;
+}
+
+/* Designer home price list on the right bottom of image*/
+.pric {
+  display: inline;
+  box-sizing: content-box;
+  width: 15%;
+  height: 50%;
+  background-color: whitesmoke;
+  padding: 0.5%;
+  border: 1px solid white;
+  border-radius: 13px;
+  position: relative;
+  left: 70%;
+  bottom: 40px;
+  color: red;
+}
+
 /* animation for the first image on index1.html */
 .orangrom:hover {
+  /*
   animation-name: oraN;
-  animation-duration: 6s;
+  animation-duration: 6s;*/
 }
 @keyframes oraN {
   from {
@@ -48,13 +100,13 @@ nav ul li img {
   }
 }
 /* transform on the second image index1.html */
-.blu:active {
+/* .blu:active {
   transform: rotateX(45deg);
-}
+} */
 /* transform on the third image index1.html */
-.wit:hover {
+/* .wit:hover {
   transform: translate(25%);
-}
+} */
 /* page3 icons and paragraph ajustment */
 .het {
   margin-left: 50%;
@@ -63,10 +115,10 @@ nav ul li img {
   float: left;
 }
 
-.pres {
+/* .pres {
   float: left;
-}
+} */
 
 /******Desktop*********/
-@media and (max-width: px) {
+@media (max-width: 750px) {
 }
