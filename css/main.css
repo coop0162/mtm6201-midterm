@@ -3,6 +3,26 @@ body {
   margin: 0, auto;
   padding-bottom: 100px;
 }
+
+/* location text top index.html page 1    */
+.location {
+  margin-left: -45%;
+  position: relative;
+  top: 30%;
+}
+/* gear icon right side  */
+.pathg {
+  position: relative;
+  left: 85%;
+  bottom: 48px;
+}
+/* Woodbridge location position  */
+h1 {
+  position: relative;
+  left: 10%;
+  bottom: ;
+}
+/* *nav bar unverisal settings  */
 nav {
   position: fixed;
   bottom: 0;
@@ -10,6 +30,8 @@ nav {
   background: white;
 }
 /* index1 page 1 styling navbar real estate  responsive image */
+
+/* *nav bar unverisal settings ***/
 nav ul li,
 a {
   list-style: none;
@@ -22,7 +44,7 @@ a {
 a:hover,
 a:active,
 a:visited {
-  color: aquamarine;
+  color: red;
 }
 /* icon top  */
 nav ul li img {
@@ -30,6 +52,8 @@ nav ul li img {
   padding-right: 2%;
   box-sizing: content-box;
 }
+
+/* ******* Mobile index.html page1 home *********/
 .orangrom,
 .blu,
 .wit .gut {
@@ -67,6 +91,7 @@ nav ul li img {
   margin-left: 50%;
   position: relative;
   top: 23px;
+  color: lightgray;
 }
 
 /* Designer home price list on the right bottom of image*/
@@ -87,9 +112,8 @@ nav ul li img {
 
 /* animation for the first image on index1.html */
 .orangrom:hover {
-  /*
   animation-name: oraN;
-  animation-duration: 6s;*/
+  animation-duration: 10s;
 }
 @keyframes oraN {
   from {
@@ -100,13 +124,13 @@ nav ul li img {
   }
 }
 /* transform on the second image index1.html */
-/* .blu:active {
+.blu:active {
   transform: rotateX(45deg);
-} */
+}
 /* transform on the third image index1.html */
-/* .wit:hover {
+.wit:hover {
   transform: translate(25%);
-} */
+}
 /* page3 icons and paragraph ajustment */
 .het {
   margin-left: 50%;
@@ -115,10 +139,8 @@ nav ul li img {
   float: left;
 }
 
-/* .pres {
-  float: left;
-} */
+/* *******Mobile Page2.html *********** */
 
-/******Desktop*********/
+/******Desktop *********/
 @media (max-width: 750px) {
 }
