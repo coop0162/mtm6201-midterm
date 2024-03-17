@@ -63,10 +63,16 @@ nav ul li img {
 /* container=conroms of  rooms  */
 .conroms {
   display: grid;
-  grid-template-rows: 350x 350px;
+  grid-template-rows: 350px 350px;
   grid-template-columns: 49% 45%;
   gap: 15px;
 }
+.design-homes,
+.home-cont {
+  grid-template-rows: 350px 350px;
+  grid-template-columns: 49% 45%;
+}
+
 /* location image pin in the price and details  */
 .picon {
   display: inline;
@@ -82,9 +88,7 @@ nav ul li img {
   margin-bottom: -2%;
 }
 
-/* container=design-homes of designer rooms  */
-.design-homes {
-}
+/* container=design-homes of designer rooms*/
 /* view all select tap font */
 .view {
   display: inline;
@@ -139,8 +143,81 @@ nav ul li img {
   float: left;
 }
 
-/* *******Mobile Page2.html *********** */
+/* *******Mobile Page2.html Saved items *********** */
+/* top screen icons and text  */
+.sor {
+  margin-left: 50%;
+  position: relative;
+  left: 30%;
+  bottom: 55px;
+}
+/* sort icon triangle position */
+.sico {
+  margin-left: 50%;
+  position: relative;
+  left: 39%;
+  bottom: 90px;
+}
+/* heading of page 2 rem  */
+.sav {
+  font-size: 2rem;
+}
+/* location icon  */
+.picon2 {
+  display: inline;
+  margin-right: 50%;
+  position: relative;
+  top: 23px;
+}
 
-/******Desktop *********/
-@media (max-width: 750px) {
+/* *******Mobile Page3.html Alerts *********** */
+
+/* modeling buttons and padding. marging ajustments  */
+.button12 {
+  padding-left: 32%;
+  margin-top: 20%;
+  position: sticky;
+  margin-bottom: 20%;
+  position: relative;
+}
+/* ask question button */
+.ask {
+  color: black;
+  box-sizing: content-box;
+  width: 50%;
+  height: 30%;
+  background-color: lightgray;
+  padding: 5%;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+/* Express interest  */
+.exp {
+  box-sizing: content-box;
+  width: 50%;
+  height: 30%;
+  background-color: red;
+  padding: 5%;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-left: 5%;
+  color: white;
+}
+
+/* description of with icon, information section  */
+.pres {
+  margin-left: -5%;
+  margin-top: 5%;
+}
+
+/******Desktop version*********/
+@media (max-width: 700px) {
+  /* index.html desktop verison */
+  /* 
+  .conroms {
+    display: block;
+  }
+
+  .design-homes {
+  } */
 }
