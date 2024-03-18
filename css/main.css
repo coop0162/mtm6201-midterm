@@ -22,7 +22,7 @@ h1 {
   left: 10%;
   bottom: ;
 }
-/* *nav bar unverisal settings  */
+/* *nav bar unverisal settings all .html pages */
 nav {
   position: fixed;
   bottom: 0;
@@ -56,7 +56,8 @@ nav ul li img {
 /* ******* Mobile index.html page1 home *********/
 .orangrom,
 .blu,
-.wit .gut {
+.wit,
+.gut {
   width: 100%;
 }
 
@@ -67,10 +68,24 @@ nav ul li img {
   grid-template-columns: 49% 45%;
   gap: 15px;
 }
-.design-homes,
+/* design-home */
+.design-homes {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 450px 450px;
+  grid-template-columns: 70% 65%;
+  gap: 5px;
+}
+/* home-cont */
 .home-cont {
-  grid-template-rows: 350px 350px;
-  grid-template-columns: 49% 45%;
+  margin-top: -30%;
+}
+
+/* Desinger h3 heading and the selective view  */
+h3,
+.view {
+  position: relative;
+  margin-top: 25%;
 }
 
 /* location image pin in the price and details  */
@@ -100,10 +115,10 @@ nav ul li img {
 
 /* Designer home price list on the right bottom of image*/
 .pric {
-  display: inline;
   box-sizing: content-box;
-  width: 15%;
-  height: 50%;
+  width: 50%;
+  height: 5%;
+
   background-color: whitesmoke;
   padding: 0.5%;
   border: 1px solid white;
@@ -196,7 +211,7 @@ nav ul li img {
   box-sizing: content-box;
   width: 50%;
   height: 30%;
-  background-color: red;
+  background-color: lightcoral;
   padding: 5%;
   border: 1px solid white;
   border-radius: 10px;
@@ -211,13 +226,23 @@ nav ul li img {
 }
 
 /******Desktop version*********/
-@media (max-width: 700px) {
-  /* index.html desktop verison */
-  /* 
-  .conroms {
-    display: block;
+@media (min-width: 700px) {
+  /* ******* Mobile index.html page1 home *********/
+
+  nav {
+    position: relative;
+    top: auto;
   }
 
-  .design-homes {
-  } */
+  .conroms {
+    display: block;
+    box-sizing: content-box;
+  }
+  .pric {
+    margin-top: -5%;
+    margin-left: -25%;
+    padding-top: 2%;
+  }
+  p {
+  }
 }
