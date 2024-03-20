@@ -22,6 +22,7 @@ h1 {
   left: 10%;
   bottom: ;
 }
+
 /* *nav bar unverisal settings all .html pages */
 nav {
   position: fixed;
@@ -55,24 +56,28 @@ nav ul li img {
 
 /* ******* Mobile index.html page1 home *********/
 .orangrom,
-.blu,
-.wit,
-.gut {
+.blu {
   width: 100%;
 }
 
 /* container=conroms of  rooms  */
 .conroms {
   display: grid;
-  grid-template-rows: 350px 350px;
+  grid-template-rows: 85px 350px;
   grid-template-columns: 49% 45%;
   gap: 15px;
 }
+/* formate 100% width for image responsive  */
+.wit,
+.gut {
+  width: 100%;
+}
+
 /* design-home */
 .design-homes {
   width: 100%;
   display: grid;
-  grid-template-rows: 450px 450px;
+  grid-template-rows: 250px 450px;
   grid-template-columns: 70% 65%;
   gap: 5px;
 }
@@ -82,12 +87,15 @@ nav ul li img {
 }
 
 /* Desinger h3 heading and the selective view  */
-h3,
-.view {
+h3 {
   position: relative;
+  right: 100%;
   margin-top: 25%;
 }
-
+.view {
+  position: relative;
+  left: 90%;
+}
 /* location image pin in the price and details  */
 .picon {
   display: inline;
@@ -105,13 +113,13 @@ h3,
 
 /* container=design-homes of designer rooms*/
 /* view all select tap font */
-.view {
+/* .view {
   display: inline;
   margin-left: 50%;
   position: relative;
   top: 23px;
   color: lightgray;
-}
+} */
 
 /* Designer home price list on the right bottom of image*/
 .pric {
@@ -227,22 +235,33 @@ h3,
 
 /******Desktop version*********/
 @media (min-width: 700px) {
-  /* ******* Mobile index.html page1 home *********/
+  /* ******* index.html page1 home *********/
 
   nav {
     position: relative;
     top: auto;
   }
 
-  .conroms {
-    display: block;
-    box-sizing: content-box;
-  }
   .pric {
     margin-top: -5%;
     margin-left: -25%;
     padding-top: 2%;
   }
-  p {
+
+  .design-homes {
+  }
+
+  img.wit {
+    margin-top: 32%;
+    margin-left: -20%;
+  }
+  img.gut {
+    margin-top: 32%;
+    margin-left: -10%;
+  }
+  .view {
+    position: relative;
+    top: 80%;
+    right: 50%;
   }
 }
