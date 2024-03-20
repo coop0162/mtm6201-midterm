@@ -92,6 +92,7 @@ h3 {
   right: 100%;
   margin-top: 25%;
 }
+/* view all test button */
 .view {
   position: relative;
   left: 90%;
@@ -107,19 +108,10 @@ h3 {
 .rom1 p {
   margin-bottom: -2%;
 }
+/* shift the location detail next image  */
 .room2 p {
   margin-bottom: -2%;
 }
-
-/* container=design-homes of designer rooms*/
-/* view all select tap font */
-/* .view {
-  display: inline;
-  margin-left: 50%;
-  position: relative;
-  top: 23px;
-  color: lightgray;
-} */
 
 /* Designer home price list on the right bottom of image*/
 .pric {
@@ -233,32 +225,56 @@ h3 {
   margin-top: 5%;
 }
 
+.nws {
+  display: inline;
+  margin-top: 5%;
+}
+.peo {
+  float: left;
+  display: inline;
+  margin-left: 3%;
+}
+.bed {
+  display: inline;
+  left: 15%;
+}
+.money {
+  font-size: 2rem;
+  color: red;
+}
+
 /******Desktop version*********/
 @media (min-width: 700px) {
   /* ******* index.html page1 home *********/
-
+  /* NAVBAR on the top  */
   nav {
     position: relative;
     top: auto;
+    margin-left: 26%;
   }
-
+  nav:hover {
+    color: blue;
+    position: relative;
+    top: auto;
+    margin-left: 26%;
+  }
+  /* price button bottom image  */
   .pric {
     margin-top: -5%;
     margin-left: -25%;
     padding-top: 2%;
   }
-
-  .design-homes {
-  }
-
+  /* bottom whiteroom image  */
   img.wit {
     margin-top: 32%;
     margin-left: -20%;
   }
+  /* side buttom blue image  */
   img.gut {
     margin-top: 32%;
     margin-left: -10%;
   }
+  /*view al text buttom  */
   .view {
     position: relative;
     top: 80%;
